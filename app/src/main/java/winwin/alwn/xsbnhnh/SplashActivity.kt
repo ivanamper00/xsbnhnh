@@ -14,7 +14,7 @@ class SplashActivity : JumpActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-        startJump(false)
+        startJump(true)
     }
 
     private fun onNextActivity(){
